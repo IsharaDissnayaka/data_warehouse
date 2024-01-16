@@ -1,0 +1,1 @@
+select COUNT(*) from DimProduct where ProductSubCategoryKey  is not null
