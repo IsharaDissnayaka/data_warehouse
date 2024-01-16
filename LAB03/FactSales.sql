@@ -1,0 +1,27 @@
+drop table if exists FactSales;
+create table FactSales(
+	SalesOrderID	int,
+	OrderDateKey int foreign key references DimDate(DateKey),
+	DueDateKey	int foreign key references DimDate(DateKey),
+	ShipDateKey	int foreign key references DimDate(DateKey),
+	SalesOrderNumber	nvarchar(25),
+	PurchaseOrderNumber	nvarchar(25),
+	AccountNumber	nvarchar(15),
+	CustomerKey	int foreign key references DimCustomer(CustomerSK),
+	SubTotal	money,
+	TaxAmt	money,
+	Freight	money,
+	TotalDue	money,
+	SrcHeaderModifiedDate datetime,
+	SrcModifiedDate	datetime,
+	SalesOrderDetailID int,
+	CarrierTrackingNumber nvarchar(25),
+	OrderQty	int,
+	ProductKey 	int foreign key references DimProduct(ProductSK),
+	UnitPrice	money,
+	UnitPriceDiscount money,
+	LineTotal numeric(38,6),
+	SrcDetailModifiedDate datetime,
+	InsertDate datetime,
+	ModifiedDate datetime
+)

@@ -1,0 +1,25 @@
+drop table if exists DimCustomer;
+create table DimCustomer(
+	CustomerSK int identity(1,1) primary key,
+	AlternateCustomerID int,
+	Title	nvarchar(8),
+	FirstName	nvarchar(50),
+	MiddleName 	nvarchar(50),
+	LastName	nvarchar(50),
+	Gender	nvarchar(1),
+	PhoneNumber	nvarchar(25),
+	PhoneNumberType	nvarchar(50),
+	EmailAddress	nvarchar(50),
+	EmailPromotion	int,
+	AddressType	nvarchar(50),
+	AddressLine1	nvarchar(60),
+	AddressLine2	nvarchar(60),
+	City	nvarchar(30),
+	StateProvinceName	nvarchar(50),
+	PostalCode	nvarchar(15),
+	CountryRegionGroup	nvarchar(50),
+	StartDate	datetime,
+	EndDate		datetime,
+	InsertDate datetime, 
+	ModifiedDate datetime
+)
