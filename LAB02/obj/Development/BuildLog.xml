@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>LAB02</Name>
-    <LastWriteTime>2024-01-16T09:10:55.9355636Z</LastWriteTime>
+    <LastWriteTime>2024-01-20T10:12:59.2010438Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>SLIIT_Reatil_Load_Staging.dtsx</Name>
-      <LastWriteTime>2024-01-16T09:10:55.9138369Z</LastWriteTime>
+      <LastWriteTime>2024-01-20T14:23:35.4873171Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
@@ -18,7 +18,7 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>SLIITT_Reatil_Load_Dw.dtsx</Name>
-      <LastWriteTime>2024-01-20T01:04:52.2772897Z</LastWriteTime>
+      <LastWriteTime>2024-01-20T14:23:37.5528755Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
